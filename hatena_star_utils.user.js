@@ -13,7 +13,7 @@ location.href = 'javascript:(' + (function() {
         { name: 'blockDuplicationStarComment', args: {} },
 
         // 文字列選択中の引用ハイライトをしないようにする
-//        { name: 'stopHighlight', args: {} },
+        { name: 'stopHighlight', args: {} },
     ];
 
     if( typeof( Hatena ) == 'undefined' ) return;
